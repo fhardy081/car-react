@@ -5,14 +5,14 @@ import '../../filter.css';
 const Filter = () => {
     return (
         <>
-            {/*Filter Box*/}
+            {/* Filter Box */}
             <div className="search-box row container">
                 {/* Filter selector */}
                 <div className="search-container col-lg-10">
                     <div className="col form-box">
                         <label className="search-label">Tipe Driver</label>
-                        <select className="form-select dropdown">
-                            <option selected="" value={0}>
+                        <select className="form-select dropdown" value={0}>
+                            <option value={0}>
                                 Pilih Tipe Driver
                             </option>
                             <option value="driver">Dengan Sopir</option>
@@ -25,8 +25,8 @@ const Filter = () => {
                     </div>
                     <div className="col form-box">
                         <label className="search-label">Waktu Jemput/Ambil</label>
-                        <select className="form-select clock" id="available-time">
-                            <option selected="" value="">
+                        <select className="form-select clock" id="available-time" value="">
+                            <option value="">
                                 Pilih Waktu
                             </option>
                             <option value={8} style={{ justifyContent: "end" }}>
@@ -51,7 +51,6 @@ const Filter = () => {
                 </div>
             </div>
         </>
-
     );
 };
 

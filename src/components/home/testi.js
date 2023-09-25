@@ -117,8 +117,6 @@ const Testi = () => {
                                         <img
                                             src={leftIcon}
                                             alt=""
-                                            onMouseOver={() => this.src = rightIconHover}
-                                            onMouseOut={() => this.src = rightIcon}
                                         />
                                     </span>
                                     <span className="visually-hidden">Previous</span>
@@ -131,10 +129,8 @@ const Testi = () => {
                                 >
                                     <span className="" aria-hidden="true">
                                         <img
-                                            src="img/right_icon.png"
+                                            src={rightIcon}
                                             alt=""
-                                            onMouseOver={() => this.src = rightIconHover}
-                                            onMouseOut={() => this.src = rightIcon}
                                         />
                                     </span>
                                     <span className="visually-hidden">Next</span>
