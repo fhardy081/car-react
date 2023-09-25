@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link as ScrollLink} from 'react-scroll';
 import '../App.css';
+import Toggler from './img/list.svg';
 
 const Navigation = () => {
     return (
@@ -48,8 +49,8 @@ const Navigation = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        <span>
-                            <span className="navbar-toggler-icon" />
+                        <span className="navbar-toggler-icon"> 
+                            <img src={Toggler} alt="Toggle navigation" />
                         </span>
                     </button>
                     <div
