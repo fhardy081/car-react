@@ -4,9 +4,7 @@ import imgMan from '../img/img_photo.png';
 import imgStar from '../img/rate.png';
 import imgWoman from '../img/testi_girl.png';
 import leftIcon from '../img/left_icon.png';
-import leftIconHover from '../img/left_icon_hover.png';
 import rightIcon from '../img/right_icon.png';
-import rightIconHover from '../img/right_icon_hover.png';
 
 const Testi = () => {
     return (
